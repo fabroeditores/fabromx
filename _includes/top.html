@@ -1,0 +1,95 @@
+<div class="bar bar--sm visible-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-sm-2">
+                <a href="{{site.url}}/">
+                    <img class="logo logo-dark" alt="logo" src="img/fabro.png" />
+                    <img class="logo logo-light" alt="logo" src="img/fabro.png" />
+                </a>
+            </div>
+            <div class="col-xs-9 col-sm-10 text-right">
+                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                    <i class="icon icon--sm stack-interface stack-menu"></i>
+                </a>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</div>
+<!--end bar-->
+<nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 col-sm-2 hidden-xs">
+                <div class="bar__module">
+                    <a href="{{ site.url }}/">
+                        <img class="logo logo-dark" alt="logo" src="{{ site.url }}/img/logo-dark.png" />
+                        <img class="logo logo-light" alt="logo" src="{{ site.url }}/img/logo-light.png" />
+                    </a>
+                </div>
+                <!--end module-->
+            </div>
+            <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                <div class="bar__module">
+                    <ul class="menu-horizontal text-left">
+                        <li>
+                        	<a href="{{ site.url }}/">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="{{ site.url }}/books">Libros</a>
+                        </li>
+<!--                         <li>
+                            <a href="{{ site.url }}/about">About</a>
+                        </li> -->
+                        <li class="dropdown">
+                            <span class="dropdown__trigger">Servicios</span>
+                            <div class="dropdown__container">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="dropdown__content col-md-2 col-sm-4">
+                                            <ul class="menu-vertical">
+                                               	<li>
+						                        	<a href="{{ site.url }}/services/indie-pack">Indie Pack</a>
+						                        </li>
+                                                <li>
+						                        	<a href="{{ site.url }}/services/bestseller-pack">Bestseller Pack</a>
+						                        </li>
+                                                <li>
+<!--                                                     <a href="{{ site.url }}/services/other">Other</a>
+                                                </li> -->
+<!--                                                 <li>
+                                                    <a href="">Interactive eBook</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Digital Magazine</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Data Journalism</a>
+                                                </li> -->
+                                            </ul>
+                                        </div>
+                                        <!--end dropdown content-->
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                            </div>
+                            <!--end dropdown container-->
+                        </li>
+                        <li>
+                            <a href="{{ site.url }}/contact">Contacto</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <!--end module-->
+
+                <!--end module-->
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</nav>
+<!--end bar-->
+</div>

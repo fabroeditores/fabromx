@@ -1,0 +1,42 @@
+<div class="tab__content">
+    <section class=" imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1"><canvas id="granim-1" width="1440" height="1087"></canvas>
+        <div class="container">
+        <h2 class="text-center">¿Tienes dudas?</h2>
+        <p class="text-center">Envíanos tus dudas y con gusto de responderemos.</p>
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="row">
+
+                        <div class="boxed boxed--border">
+
+                            <form class="text-left form-email" id="contact_form">
+                                <input type="hidden" name="Page" value="{{ page.title }}">
+                                <div class="col-sm-6">
+                                    <label>Nombre:</label>
+                                    <input type="text" name="name" class="validate-required">
+                                </div>
+  
+                                <div class="col-sm-6">
+                                    <label>Email:</label>
+                                    <input type="email" name="email" class="validate-required validate-email">
+                                </div>
+                      
+                                <div class="col-sm-12">
+                                    <label>Háblanos de tu proyecto:</label>
+                                    <textarea rows="5" name="description" class="validate-required"></textarea>
+                                </div>
+                                
+                                <div class="col-sm-12 boxed">
+                                    <button type="button" id="submit" class="btn btn--primary type--uppercase full-button">Enviar Mensaje</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+</div>
