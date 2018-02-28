@@ -17,7 +17,7 @@ title: Fabro
 email: hello@fabro.co
 description: "Publicación editorial de bajo costo"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fabro.com.mx" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fabro.com.mx" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
